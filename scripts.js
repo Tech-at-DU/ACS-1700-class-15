@@ -36,3 +36,15 @@ function onClick(e) {
 
 	}
 }
+
+// Using the code above try these challenges: 
+// 1. Add a new element to HTML in index.html
+// Then come back to this file and handle clicks 
+// on that element.
+// 
+// 2. Create a couple input tags in index.html. 
+// Think of a selector that will identify these elements. 
+// Add an event listener to the body that listens for 
+// 'input' events. Handle the input events from the 
+// body by using e.target.matches() to identify 
+// your inputs.  
