@@ -47,4 +47,17 @@ function onClick(e) {
 // Add an event listener to the body that listens for 
 // 'input' events. Handle the input events from the 
 // body by using e.target.matches() to identify 
-// your inputs.  
+// your inputs. 
+// 
+// 3. Apply event delegation to your Tip calculator. 
+// For this you are already using using it to some 
+// degree since you probably have a single event 
+// handler handling events from all of your inputs. 
+// Try moving this listener to the body element 
+// and checking the event target to see if the the
+// target matches the type `input'. Something like 
+// this: e.target.matches('input')
+// 
+// 4. The waypoints example uses event delgation 
+// Look at that and implement the waypoints 
+// navigation bar in your single page site. 
